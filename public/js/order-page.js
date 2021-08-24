@@ -46,14 +46,19 @@ function custom(p) {
     //Choose topping
     function toping(e) {
         var currValue = parseInt(e.target.value);
-        cost+= currValue;
-    
-        if (e.ctrlKey == true) {
-            cost-= (currValue * 2);
+        if(e.target.checked){
+            cost+= currValue;
         }
+        else{
+            cost-= currValue;
+
+        }
+        // if (e.ctrlKey == true) {
+        //     cost-= (currValue * 2);
+        // }
         totalCost.innerHTML = cost + ' VND';
     }
-    var toppings = document.querySelectorAll('.topping-item')
+    var toppings = document.querySelectorAll('.topping');
     toppings.forEach(function(topping) {
         topping.addEventListener('click', toping);
     })
