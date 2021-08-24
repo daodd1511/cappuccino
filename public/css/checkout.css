@@ -1,0 +1,199 @@
+/* Customize button, radio & checkbox */
+.navback-btn {
+    z-index: 2;
+}
+
+.btn-brand-color {
+    background-color: #b78546 !important;
+    color: #ffffff !important;
+}
+
+input[type="radio"] {
+    background-color: #ffffff !important;
+}
+
+input[type="radio"]:checked {
+    background-color: #b78546 !important;
+    border-color: #b78546 !important;
+}
+
+input[type="checkbox"] {
+    background-color: #ffffff !important;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #b78546 !important;
+    border-color: #b78546 !important;
+}
+
+
+/* Header & title */
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.logo-name {
+    font-family: Righteous;
+    font-style: Regular;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+    text-align: center;
+}
+
+header {
+    background-color: #cfc6b7;
+    height: 189px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 26px;
+}
+
+h3 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #603813;
+}
+
+.title {
+    width: 100%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/* Border section container */
+
+.section-border {
+    box-shadow: 0px 1px 7px 0px #888888;
+    border-radius: 0.25rem;
+}
+
+
+/* Anchor for receipt */
+
+.anchor {
+    position: sticky;
+    top: 10%;
+}
+
+
+/* Receipt style */
+
+.amount,
+.cost1,
+.cost2,
+.cost3,
+.cost4,
+.total,
+.shipping,
+.sum {
+    text-align: right;
+}
+
+.border-bottom-none {
+    border-bottom: none !important;
+}
+
+.border-top-none {
+    border-top: none !important;
+}
+
+.row1,
+.row2,
+.row3,
+.row4,
+.row5 {
+    background-color: #ffffff !important;
+    --bs-table-accent-bg: #ffffff !important;
+}
+
+.shipping,
+.cost4,
+.td-input,
+.td-button1,
+.td-button2 {
+    border: none !important;
+}
+
+.td-img {
+    width: 50px;
+}
+
+.img-item {
+    width: 50px;
+    height: 50px;
+}
+
+/* Modal styling */
+.modal-img{
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.modal-text{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #603813;
+}
+
+/* Footer */
+.footer {
+    background-color: #CFC6B7;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.logo-img2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2px;
+}
+
+.logo-name2 {
+    font-family: 'Righteous', cursive;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.fa {
+    display: block !important;
+    font-weight: normal !important;
+    font: normal normal normal 14px/1 'FontAwesome'!important;
+}
+
+.fa-facebook::before,
+.fa-instagram::before,
+.fa-phone::before,
+.fa-building::before {
+    padding-right: 28px;
+}
+
+.footer-contact {
+    font-size: 24px !important;
+    padding-bottom: 18px;
+    padding-left: 5%;
+}
